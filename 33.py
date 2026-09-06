@@ -13,7 +13,8 @@ while l<=r:
         else:
             l=mid+1
     else:
-        if nums[l]<=target<nums[mid]:
+        if nums[mid]<target<=nums[r]:
             l=mid+1
         else:
             r=mid-1
+print(-1)

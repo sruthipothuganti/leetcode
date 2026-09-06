@@ -1,0 +1,28 @@
+arr=[5,7,7,8,8,10]
+target = 8
+first,last=-1,-1
+l=0
+r=len(arr)-1
+while(l<=r):
+    mid=(l+r)//2
+    if(target==arr[mid]):
+        last=mid
+        l=mid+1
+    elif(target<arr[mid]):
+        r=mid-1
+    else:
+        l=mid+1
+l=0
+r=len(arr)-1
+while(l<=r):
+    mid=(l+r)//2
+    if(target==arr[mid]):
+        first=mid
+        r=mid-1
+    elif(target<arr[mid]):
+        r=mid-1
+    else:
+        l=mid+1
+else:
+    a=[first,last]
+    print(a)
