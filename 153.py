@@ -6,6 +6,6 @@ while l<=r:
   if nums[mid]>nums[r]:
     l=mid+1
 else:
-  r=mid-1
+  r=mid
 print(nums[l])
     
