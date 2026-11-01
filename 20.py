@@ -15,4 +15,3 @@ class Solution:
                 elif i=="}" and t!="{":
                     return False
         return len(s)==0
-            

@@ -29,13 +29,6 @@
 #             r -= 1
 
 # print(a)
-
-
-
-
-
-
-
 nums=[-1, 0, 1, 2, -1, -4]
 nums.sort()
 a=[]
@@ -59,4 +52,3 @@ for i in range(len(nums)-2):
         else:
             r-=1
 print(a)
-

@@ -7,6 +7,3 @@ for i in intervals:
   else:
     ans[-1][1]=max(ans[-1][1],i[1])
 print(ans)
-    
-  
-
